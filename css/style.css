@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6em;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+h1,
+h2,
+h3 {
+  padding-top: 23px;
+}
+p {
+  margin: 10px 0;
+}
+#navbar {
+  background-color: bisque;
+  padding-bottom: 77px;
+}
+#navbar h1 {
+  float: left;
+}
+#navbar ul {
+  float: right;
+  padding-top: 23px;
+}
+#navbar ul li {
+  list-style-type: none;
+  float: left;
+}
+#navbar ul li a {
+  padding: 9px;
+}
+#navbar ul li a:hover {
+  background-color: cornsilk;
+  color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container {
+  width: 1111px;
+  margin: auto;
+}
+#showcase {
+  background-image: url("../pics/showcase.jpg");
+  background-repeat: no-repeat;
+  height: 955px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 400px;
+  line-height: 1.9em;
+  color: whitesmoke;
+}
+.head {
+  color: chocolate;
+}
+.para {
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#link {
+  color: thistle;
+  background-color: chocolate;
+  padding: 10px 6px;
+}
+#link:hover {
+  color: floralwhite;
+  background-color: darkgrey;
+}
+#image {
+  background-image: url("../pics/photo-1.jpg");
+  width: 50%;
+  background-position: centre;
+  background-repeat: no-repeat;
+  height: 600px;
+  float: left;
+}
+#info {
+  text-align: center;
+  padding: 90px 14px;
+}
+.bgg {
+  background-color: darkslategrey;
+  height: 600px;
+}
+#box-1 {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+#box-2 {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+#box-3 {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+#footer {
+  text-align: center;
+  padding-bottom: 104px;
+  padding: 9px;
+  color: darkslategray;
+  clear: both;
+}
+.current {
+  background-color: cornsilk;
+}
+.clr {
+  clear: both;
+}
+#left {
+  width: 40%;
+  line-height: 1.8em;
+  float: left;
+}
+#right {
+  width: 50%;
+  float: right;
+}
+#right img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding: 23px 4px;
+  border-radius: 50%;
+}
+#testi {
+  background-image: url("../pics/test-bg.jpg");
+  height: 600px;
+}
+#testi h1 {
+  text-align: center;
+  padding-bottom: 44px;
+}
+.pho img {
+  border-radius: 50%;
+  width: 100px;
+  float: left;
+  margin-right: 22px;
+}
+#testi pho {
+  margin-bottom: 22px;
+  padding: 44px;
+}
+.forms {
+  line-height: 1.9em;
+  padding: 10px;
+  border: 1px solid black;
+}
+.forms:focus {
+  width: 50%;
+  height: auto;
+  color: bisque;
+  padding-bottom: 55px;
+}
+.btn {
+  padding: 3px 6px;
+  color: brown;
+  background-color: burlywood;
+  width: 30%;
+  padding: 8px 4px;
+}
+.btn:hover {
+  color: floralwhite;
+  background-color: darkgrey;
+}
